@@ -1,12 +1,12 @@
-name: learn-github-actions
+# name: learn-github-actions
 
-on:
-  schedule:
-    - cron: '20 21 * * *'
+# on:
+#   schedule:
+#     - cron: '20 21 * * *'
     
-jobs:
-  hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'hello-world'
-        run: echo 'Hello'
+# jobs:
+#   hello-world:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: 'hello-world'
+#         run: echo 'Hello'
